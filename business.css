@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-toggler{
+    
+    outline: none;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+/* -------navbar----------- */
+#nav-bar{
+    top: 0;
+    position: sticky;
+    z-index: 10;
+}
+.navbar{
+    border: 2px solid black;
+    background-color: black;
+    
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.nav-item{
+    padding: 0 10px;
+    color: white;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: #0762f5;
+}
+.nav-link{
+    float: right;
+    text-align: left;
+    font-weight: 600;
+    font-family: serif;
+}
+/* ---------slider---------- */
+#slider{
+    width: 100%;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 90vh;
+}
+#slider .carousel-item h2{
+    text-align: center;
+    justify-content: center;
+    transform: translateY(-300px);
+    font-family: serif;
+    font-weight: bolder;
+    color: white;
+}
+/* ------about-us------ */
+#about-us{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* --------services--------- */
+#services{
+    background-image: url(resume11.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+#services .line{
+    border-top: 2px solid white;
+}
+.services{
+    margin-top: 30px;
+    color: white;
+    font-family: serif;
+    background-color: black;
+    border: 2px solid black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.services:hover{
+    margin-top: 30px;
+    color: black;
+    font-family: serif;
+    background-color: white;
+    border: 2px solid black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 0.5s;
+}
+/* ----------team-------- */
+#team{
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+.team img{
+    height: 200px;
+    width: 150px;
+    
+}
+#team .bottom-img{
+    background-image: url(free\ domain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    padding-top:4%;
+}
+.bottom-img .primary-btn{
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: serif;
+
+}
+.bottom-img .primary-btn:hover{
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: serif;
+    transition: 0.5s;
+}
+/* ---------price plan-------- */
+#price-plan{
+    font-family: serif;
+    background-color: beige;
+    padding: 20px 0px;
+}
+.price-box{
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+.list{
+    background-color: white;
+    border-radius: 10px;
+}
+.list:hover{
+    border: 5px solid #a3a098;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.list ul li{
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.list ul li i{
+    margin-right: 10px;
+}
+.fa-check-circle{
+    color: green;
+}
+.fa-times-circle{
+    color: red;
+}
+#price-plan .btn{
+    width: fit-content;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+#price-plan .btn:hover{
+    width: fit-content;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+#price-plan .btn a{
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+}
+#price-plan .btn a:hover{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+}
+/* ------testimonials------- */
+#testimonials{
+    margin: 30px 0px;
+    text-align: center;
+}
+#testimonials .block img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -40px;
+}
+#testimonials .block{
+    background-color: burlywood;
+    margin: 50px 0px;
+    border-radius: 10px;
+}
+#testimonials .block:hover{
+    background-color: burlywood;
+    margin: 50px 0px;
+    border: 3px solid #7a6872;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+/* --------contact------- */
+#contact{
+    padding-top: 40px;
+    background-image: url(footer.png);
+}
+.my-comtact{
+    margin: 30px;
+}
+/* ------footer----- */
+#footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
